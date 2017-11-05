@@ -1,0 +1,11 @@
+[package]
+name = "obv"
+version = "0.1.0"
+authors = ["Piet Geursen <pietgeursen@gmail.com>"]
+
+[dependencies]
+uuid = { version = "0.5.1", features = ["v4"] }
+
+[lib]
+name = "obv"
+path = "obv.rs"
